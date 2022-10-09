@@ -1,0 +1,11 @@
+# oct/09/2022 01:21:02 by RouterOS 7.5
+# software id = 
+#
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
+/port
+set 0 name=serial0
+/ip dhcp-client
+add interface=ether1
+/system identity
+set name=MikroTik_HOM
