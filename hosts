@@ -1,6 +1,21 @@
 
 [mikrotik]
-mk_01
+FW-MMS-01
+FW-PPS-01
+Santa_Izabel
+FW-ITZ-01
+FW-CUP-01
+FW-RBO-01
+FW-VGI-01
+FW-GDO
+FW-CBA-01
+FW-BLM-01
+FW-SRM-01
+FW-IPJ-PORTODEGALINHAS
+FW-RCE-01
+FW-RCE-01
+FW-SRM-01
+FW-BSA-01FW-IPJ-MURO_ALTOFW-OLD
 
 [mikrotik:vars]
 ansible_user=admin  
